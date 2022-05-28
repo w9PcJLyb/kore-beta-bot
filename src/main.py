@@ -1,9 +1,9 @@
 # <--->
 from .board import Board
 from .logger import logger, init_logger
-from .offence import capture_shipyards
-from .defence import defend_shipyards
-from .expantion import expand
+from .offense import capture_shipyards
+from .defense import defend_shipyards
+from .expansion import expand
 from .mining import mine
 from .control import spawn, greedy_spawn, adjacent_attack, direct_attack
 
